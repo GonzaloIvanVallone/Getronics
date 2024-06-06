@@ -7,15 +7,8 @@ public class Liquid extends Product{
         this.liters = liters;
     }
 
-    public Double getLiters() {
-        return liters;
-    }
-
-    public void setLiters(Double liters) {
-        this.liters = liters;
-    }
     @Override
     public String toString(){
-        return "Nombre: " + super.getProductName() + " /// Litros: " + liters + " /// Precio: $" + super.getPrice();
+        return "Nombre: " + getProductName() + " /// Litros: " + liters + " /// Precio: $" + getPrice();
     }
 }

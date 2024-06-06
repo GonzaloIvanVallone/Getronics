@@ -7,15 +7,8 @@ public class PerUnit extends Product{
         this.unit = unit;
     }
 
-    public String getUnit() {
-        return unit;
-    }
-
-    public void setUnit(String unit) {
-        this.unit = unit;
-    }
     @Override
     public String toString() {
-        return "Nombre: " + super.getProductName() + " /// Precio: $" + super.getPrice() + " /// Unidad de venta: " + unit;
+        return "Nombre: " + getProductName() + " /// Precio: $" + getPrice() + " /// Unidad de venta: " + unit;
     }
 }
